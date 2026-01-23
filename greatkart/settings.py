@@ -150,5 +150,9 @@ EMAIL_HOST_USER = 'your_email@gmail.com'
 EMAIL_HOST_PASSWORD = 'your_app_password'  # see below
 
 
+#Dashboard
+LOGIN_REDIRECT_URL = '/accounts/dashboard/'
+LOGOUT_REDIRECT_URL = '/accounts/login/'
+
 
 
